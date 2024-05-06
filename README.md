@@ -17,12 +17,14 @@ npm install --save datatables.net-bs5
 npm install react-router-dom
 ```
 
+## Datatables CDN
 add css cdn link in public/index.html
 ```
 <link href="https://cdn.datatables.net/v/bs5/dt-2.0.5/datatables.min.css" rel="stylesheet">
 ```
 
 ## Bootstrap
+add css cdn link in public/index.html
 ```
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 ```
