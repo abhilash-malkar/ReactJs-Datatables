@@ -4,11 +4,21 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Install Packages
 
-### `npm install --save jquery`
-### `npm install --save datatables.net-bs5`
-### `npm install react-router-dom`
+
 ```
+npm install --save jquery
+```
+
+```
+npm install --save datatables.net-bs5
+```
+
+```
+npm install react-router-dom
+```
+
 add css cdn link in public/index.html
+```
 <link href="https://cdn.datatables.net/v/bs5/dt-2.0.5/datatables.min.css" rel="stylesheet">
 ```
 
