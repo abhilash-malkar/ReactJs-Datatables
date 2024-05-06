@@ -1,21 +1,23 @@
 import React from 'react'
-
+import '../App.css'
 import { Link } from 'react-router-dom'
 
 function Home() {
   return (
     <div className='container mt-3'>
-        <div className="row">
-            <div className="col">
-                <Link className='btn btn-warning btn-sm' to='/app/pages/normal-table'>Normal Table</Link>
-            </div>
-            <div className="col">
-                <Link className='btn btn-warning btn-sm' to='/app/pages/fetch-table'>Fetch API Table</Link>
-            </div>
-            <div className="col">
-                <Link className='btn btn-warning btn-sm' to='/app/pages/custom-table'>Custom features</Link>
-            </div>
-        </div>
+        <h1>Datatables in ReactJS</h1>
+        <ol>
+            <li>
+                <Link className='nav-link' to='/app/pages/normal-table'>Normal Table</Link>
+            </li>
+            <li>
+                <Link className='nav-link' to='/app/pages/fetch-table'>Fetch API Table</Link>
+            </li>
+            <li>
+                <Link className='nav-link' to='/app/pages/custom-table'>Custom features</Link>
+            </li>
+        </ol>
+
         
     </div>
   )
