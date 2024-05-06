@@ -47,7 +47,7 @@ function CustomTable() {
                 { data: 'salary' },
             ],
             dom: 'Bfrtip',
-            buttons: [
+            buttons: [ 
                 'copy', 'csv', // Keep the buttons you need
                 // 'pdf' // Remove PDF button
                 {

@@ -8,13 +8,13 @@ function Home() {
         <h1>Datatables in ReactJS</h1>
         <ol>
             <li>
-                <Link className='nav-link' to='/app/pages/normal-table'>Normal Table</Link>
+                <Link className='nav-link' to='/normal-table'>Normal Table</Link>
             </li>
             <li>
-                <Link className='nav-link' to='/app/pages/fetch-table'>Fetch API Table</Link>
+                <Link className='nav-link' to='/fetch-table'>Fetch API Table</Link>
             </li>
             <li>
-                <Link className='nav-link' to='/app/pages/custom-table'>Custom features</Link>
+                <Link className='nav-link' to='/custom-table'>Custom features</Link>
             </li>
         </ol>
 

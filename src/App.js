@@ -14,9 +14,9 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<Home/>}/>
-          <Route path='/app/pages/normal-table' element={<NormalTable/>}/>
-          <Route path='/app/pages/fetch-table' element={<FetchTable/>}/>
-          <Route path='/app/pages/custom-table' element={<CustomTable/>}/>
+          <Route path='/normal-table' element={<NormalTable/>}/>
+          <Route path='/fetch-table' element={<FetchTable/>}/>
+          <Route path='/custom-table' element={<CustomTable/>}/>
         </Routes>
       </Router>
     </>
