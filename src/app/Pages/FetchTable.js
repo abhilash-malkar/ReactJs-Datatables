@@ -12,6 +12,82 @@ function FetchTable() {
         fetchData();
     }, []);
 
+    // data pattern
+    // {
+    //     "data": [
+    //       {
+    //         "firstName": "Airi",
+    //         "lastName": "Satou",
+    //         "role": "Accountant",
+    //         "address": "Tokyo",
+    //         "salary": "$162,700"
+    //       },
+    //       {
+    //         "firstName": "Angelica",
+    //         "lastName": "Ramos",
+    //         "role": "Chief Executive Officer (CEO)",
+    //         "address": "London",
+    //         "salary": "$1,200,000"
+    //       },
+    //       {
+    //         "firstName": "Ashton",
+    //         "lastName": "Cox",
+    //         "role": "Junior Technical Author",
+    //         "address": "San Francisco",
+    //         "salary": "$86,000"
+    //       },
+    //       {
+    //         "firstName": "Bradley",
+    //         "lastName": "Greer",
+    //         "role": "Software Engineer",
+    //         "address": "London",
+    //         "salary": "$132,000"
+    //       },
+    //       {
+    //         "firstName": "Brenden",
+    //         "lastName": "Wagner",
+    //         "role": "Software Engineer",
+    //         "address": "San Francisco",
+    //         "salary": "$206,850"
+    //       },
+    //       {
+    //         "firstName": "Brielle",
+    //         "lastName": "Williamson",
+    //         "role": "Integration Specialist",
+    //         "address": "New York",
+    //         "salary": "$372,000"
+    //       },
+    //       {
+    //         "firstName": "Bruno",
+    //         "lastName": "Nash",
+    //         "role": "Software Engineer",
+    //         "address": "London",
+    //         "salary": "$163,500"
+    //       },
+    //       {
+    //         "firstName": "Caesar",
+    //         "lastName": "Vance",
+    //         "role": "Pre-Sales Support",
+    //         "address": "New York",
+    //         "salary": "$106,450"
+    //       },
+    //       {
+    //         "firstName": "Cara",
+    //         "lastName": "Stevens",
+    //         "role": "Sales Assistant",
+    //         "address": "New York",
+    //         "salary": "$145,600"
+    //       },
+    //       {
+    //         "firstName": "Cedric",
+    //         "lastName": "Kelly",
+    //         "role": "Senior Javascript Developer",
+    //         "address": "Edinburgh",
+    //         "salary": "$433,060"
+    //       }
+    //     ]
+    //   }
+
     const fetchData = async () => {
         try {
             const response = await axios.get('http://localhost/playground/ReactJS_Datatables_API_Demo/list.php');
