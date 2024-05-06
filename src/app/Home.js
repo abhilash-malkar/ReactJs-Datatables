@@ -13,7 +13,7 @@ function Home() {
                 <Link className='btn btn-warning btn-sm' to='/app/pages/fetch-table'>Fetch API Table</Link>
             </div>
             <div className="col">
-                <Link className='btn btn-warning btn-sm' to='#'>Custom features</Link>
+                <Link className='btn btn-warning btn-sm' to='/app/pages/custom-table'>Custom features</Link>
             </div>
         </div>
         
