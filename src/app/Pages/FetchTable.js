@@ -121,7 +121,7 @@ function FetchTable() {
         <div className='container mt-3'>
             <button className='btn btn-danger btn-sm' onClick={() => navigate(-1)}>Back</button>
             <h1>Fetch Table</h1>
-            <table id='myDataTable' className='table'>
+            <table id='myDataTable' className='display' style={{width:'100%'}}>
                 <thead>
                     <tr>
                         <th className='sorting'>First Name</th>

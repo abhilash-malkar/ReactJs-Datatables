@@ -48,8 +48,7 @@ function CustomTable() {
             ],
             dom: 'Bfrtip',
             buttons: [ 
-                'copy', 'csv', // Keep the buttons you need
-                // 'pdf' // Remove PDF button
+                'copy', 'csv', 
                 {
                     extend: 'print',
                     customize: function(win) {
@@ -69,7 +68,7 @@ function CustomTable() {
                 <button className="btn btn-primary" onClick={() => $('#myDataTable').DataTable().buttons().pdfHtml5()}>Download PDF</button> */}
                 {/* Add your custom button here */}
             </div>
-            <table id='myDataTable' className='table'>
+            <table id='myDataTable' className='display' style={{width:'100%'}}>
                 <thead>
                     <tr>
                         <th className='sorting'>First Name</th>
